@@ -43,14 +43,54 @@ class _MyHomePageState extends State<MyHomePage> {
                 backgroundColor: Theme.of(context).colorScheme.inversePrimary,
                 title: Text(widget.title),
             ),
-            body: Center(
+            body: Padding(
+                padding: const EdgeInsets.all(4),
                 child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: <Widget>[
-                        const Text('You have pushed the button this many times:'),
-                        Text(
-                            '$_counter',
-                            style: Theme.of(context).textTheme.headlineMedium,
+                        Expanded(
+                            child: Container(
+                                margin: const EdgeInsets.symmetric(vertical: 2),
+                                decoration: BoxDecoration(
+                                    border: Border.all(color: Colors.grey),
+                                    borderRadius: BorderRadius.circular(8),
+                                ),
+                                child: const Center(
+                                    child: Text('Top row'),
+                                ),
+                            ),
+                        ),
+                        Expanded(
+                            child: Container(
+                                margin: const EdgeInsets.symmetric(vertical: 2),
+                                decoration: BoxDecoration(
+                                    border: Border.all(color: Colors.grey),
+                                    borderRadius: BorderRadius.circular(8),
+                                ),
+                                child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: <Widget>[
+                                        const Text('You have pushed the button this many times:'),
+                                        Text(
+                                            '$_counter',
+                                            style: Theme.of(context).textTheme.headlineMedium,
+                                        ),
+                                    ],
+                                ),
+                            ),
+                        ),
+                        Expanded(
+                            flex:3,
+                            child: Container(
+                                margin: const EdgeInsets.symmetric(vertical: 2),
+                                decoration: BoxDecoration(
+                                    border: Border.all(color: Colors.grey),
+                                    borderRadius: BorderRadius.circular(8),
+                                ),
+                                child: const Center(
+                                    child: Text('Bottom row'),
+                                ),
+                            ),
                         ),
                     ],
                 ),
