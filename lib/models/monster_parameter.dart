@@ -1,35 +1,143 @@
 import 'package:hive/hive.dart';
 
-/// Hive-backed record for a single monster parameter row.
-class MonsterParameter {
-  MonsterParameter({required this.label, required this.value});
+@HiveType(typeId: 0)
+class Monster extends HiveObject { //Note: Member variables are not finalized yet.
+  @HiveField(0)
+  String name;
 
-  String label;
-  double value;
+  @HiveField(1)
+  String type;
+
+  @HiveField(2)
+  HiveList<MonsterHistory>? history;
+
+  Monster({required this.name, required this.type});
 }
 
-class MonsterParameterAdapter extends TypeAdapter<MonsterParameter> {
-  @override
-  final int typeId = 0;
+@HiveType(typeId: 2)
+enum MonsterAction {
+  @HiveField(0)
+  none,
 
-  @override
-  MonsterParameter read(BinaryReader reader) {
-    final numOfFields = reader.readByte();
-    final fields = <int, dynamic>{
-      for (int i = 0; i < numOfFields; i++) reader.readByte(): reader.read(),
-    };
-    final label = fields[0] as String? ?? '';
-    final value = (fields[1] as num?)?.toDouble() ?? 0;
-    return MonsterParameter(label: label, value: value);
-  }
+  @HiveField(1)
+  lightWork,
 
-  @override
-  void write(BinaryWriter writer, MonsterParameter obj) {
-    writer
-      ..writeByte(2)
-      ..writeByte(0)
-      ..writeString(obj.label)
-      ..writeByte(1)
-      ..writeDouble(obj.value);
-  }
+  @HiveField(2)
+  heavyWork,
+
+  @HiveField(3)
+  training,
+
+  @HiveField(4)
+  rest,
+
+  @HiveField(5)
+  tournament,
+
+  @HiveField(6)
+  expeditionStart,
+
+  @HiveField(7)
+  expeditionReturn,
+
+  @HiveField(8)
+  hibernation,
+}
+
+@HiveType(typeId: 1)
+class MonsterHistory extends HiveObject {
+  @HiveField(0)
+  int year;
+
+  @HiveField(1)
+  int month;
+
+  @HiveField(2)
+  int week;
+
+  @HiveField(3)
+  int lifespan;
+
+  @HiveField(4)
+  double lifespanPercent;
+
+  @HiveField(5)
+  int ageYears;
+
+  @HiveField(6)
+  int ageMonths;
+
+  @HiveField(7)
+  int ageWeeks;
+
+  @HiveField(8)
+  int fatigue;
+
+  @HiveField(9)
+  int stress;
+
+  @HiveField(10)
+  int affection;
+
+  @HiveField(11)
+  int fear;
+
+  @HiveField(12)
+  int loyalty;
+
+  @HiveField(13)
+  int stressGain;
+
+  @HiveField(14)
+  String bodyType;
+
+  @HiveField(15)
+  int condition;
+
+  @HiveField(16)
+  int lifeCost;
+
+  @HiveField(17)
+  MonsterAction action;
+
+  @HiveField(18)
+  bool meat;
+
+  @HiveField(19)
+  int mango;
+
+  @HiveField(20)
+  int mochi;
+
+  @HiveField(21)
+  int grass;
+
+  @HiveField(22)
+  int gBalance;
+
+  MonsterHistory({
+    required this.year,
+    required this.month,
+    required this.week,
+    required this.lifespan,
+    required this.lifespanPercent,
+    required this.ageYears,
+    required this.ageMonths,
+    required this.ageWeeks,
+    required this.fatigue,
+    required this.stress,
+    required this.affection,
+    required this.fear,
+    required this.loyalty,
+    required this.stressGain,
+    required this.bodyType,
+    required this.condition,
+    required this.lifeCost,
+    required this.action,
+    required this.meat,
+    required this.mango,
+    required this.mochi,
+    required this.grass,
+    required this.gBalance,
+  });
 }
