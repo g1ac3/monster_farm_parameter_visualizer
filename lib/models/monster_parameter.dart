@@ -44,6 +44,18 @@ enum MonsterAction {
   hibernation,
 }
 
+@HiveType(typeId: 3)
+enum MonsterFeed {
+  @HiveField(0)
+  potato,
+
+  @HiveField(1)
+  fish,
+
+  @HiveField(2)
+  meat,
+}
+
 @HiveType(typeId: 1)
 class MonsterHistory extends HiveObject {
   @HiveField(0)
@@ -101,7 +113,7 @@ class MonsterHistory extends HiveObject {
   MonsterAction action;
 
   @HiveField(18)
-  bool meat;
+  MonsterFeed monthlyFeed;
 
   @HiveField(19)
   int mango;
@@ -134,7 +146,7 @@ class MonsterHistory extends HiveObject {
     required this.condition,
     required this.lifeCost,
     required this.action,
-    required this.meat,
+    required this.monthlyFeed,
     required this.mango,
     required this.mochi,
     required this.grass,
