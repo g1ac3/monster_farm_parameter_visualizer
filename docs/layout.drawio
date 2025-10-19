@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="jeuMunRn4UO3WYGwcbuu" name="main">
-        <mxGraphModel dx="786" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="392" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -82,113 +82,113 @@
                 <mxCell id="PrtFBoenNGpwyf1w-SkJ-8" value="寿命" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="720" y="170" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="PrtFBoenNGpwyf1w-SkJ-11" value="サイドバー&lt;div&gt;スケジュール&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="60" width="90" height="320" as="geometry"/>
+                <mxCell id="PrtFBoenNGpwyf1w-SkJ-11" value="drawer&lt;br&gt;&lt;div&gt;遷移用&lt;/div&gt;&lt;div&gt;・スケジュール&lt;/div&gt;&lt;div&gt;・・・・&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="50" width="90" height="340" as="geometry"/>
                 </mxCell>
                 <mxCell id="PrtFBoenNGpwyf1w-SkJ-12" value="TODO（Monster）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="870" y="170" width="230" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="もどる" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="6" value="もどる" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="890" y="520" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="7" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="880" y="590" width="280" height="220" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="サーカス" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="8" value="サーカス" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="890" y="600" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="建設" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="9" value="建設" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1020" y="600" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="鉱山" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="10" value="鉱山" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="890" y="650" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="郵便配達" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="11" value="郵便配達" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1020" y="650" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="もどる" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="14" value="もどる" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="890" y="700" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="15" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="880" y="820" width="280" height="220" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="セキトバ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="16" value="セキトバ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="890" y="830" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="バリーズ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="17" value="バリーズ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1020" y="830" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="アルタビスタ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="18" value="アルタビスタ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="890" y="880" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="リューン" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="19" value="リューン" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1020" y="880" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="カララギ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="20" value="カララギ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="890" y="930" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="もどる" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="21" value="もどる" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="890" y="980" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="レマ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="22" value="レマ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1020" y="930" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="25" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="880" y="1050" width="280" height="220" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="カララギマンゴー&lt;div&gt;(疲労度 -10)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="26" value="カララギマンゴー&lt;div&gt;(疲労度 -10)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="890" y="1060" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="香り餅&lt;div&gt;（疲労度 -50）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="27" value="香り餅&lt;div&gt;（疲労度 -50）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1020" y="1060" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="冬美草&lt;div&gt;(スタミナ -50)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="28" value="冬美草&lt;div&gt;(スタミナ -50)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="890" y="1110" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="もどる" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="31" value="もどる" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1020" y="1160" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="nDyvKuCdlr-ao0_Ds60D-32" value="前&lt;div&gt;()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="nDyvKuCdlr-ao0_Ds60D-32" value="前&lt;div&gt;()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="890" y="1210" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="nDyvKuCdlr-ao0_Ds60D-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="nDyvKuCdlr-ao0_Ds60D-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1020" y="1110" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="nDyvKuCdlr-ao0_Ds60D-34" value="次&lt;div&gt;（ドーピング類）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="nDyvKuCdlr-ao0_Ds60D-34" value="次&lt;div&gt;（ドーピング類）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1020" y="1210" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="nDyvKuCdlr-ao0_Ds60D-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="nDyvKuCdlr-ao0_Ds60D-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1200" y="1050" width="280" height="220" as="geometry"/>
                 </mxCell>
-                <mxCell id="nDyvKuCdlr-ao0_Ds60D-36" value="空走丸&lt;div&gt;(寿命 -1)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="nDyvKuCdlr-ao0_Ds60D-36" value="空走丸&lt;div&gt;(寿命 -1)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1210" y="1060" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="nDyvKuCdlr-ao0_Ds60D-37" value="必中丸&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;(寿命 -1)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="nDyvKuCdlr-ao0_Ds60D-37" value="必中丸&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;(寿命 -1)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1340" y="1060" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="nDyvKuCdlr-ao0_Ds60D-38" value="バイアシン&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;(寿命 -2)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="nDyvKuCdlr-ao0_Ds60D-38" value="バイアシン&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;(寿命 -2)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1210" y="1110" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="nDyvKuCdlr-ao0_Ds60D-39" value="もどる" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="nDyvKuCdlr-ao0_Ds60D-39" value="もどる" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1340" y="1160" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="nDyvKuCdlr-ao0_Ds60D-40" value="前&lt;div&gt;()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="nDyvKuCdlr-ao0_Ds60D-40" value="前&lt;div&gt;()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1210" y="1210" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="nDyvKuCdlr-ao0_Ds60D-41" value="タパウリン&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;(寿命 -2)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="nDyvKuCdlr-ao0_Ds60D-41" value="タパウリン&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;(寿命 -2)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1340" y="1110" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="nDyvKuCdlr-ao0_Ds60D-42" value="次&lt;div&gt;（）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="nDyvKuCdlr-ao0_Ds60D-42" value="次&lt;div&gt;（）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1340" y="1210" width="130" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="nDyvKuCdlr-ao0_Ds60D-43" value="ラロックス&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;(寿命 -2)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="nDyvKuCdlr-ao0_Ds60D-43" value="ラロックス&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;(寿命 -2)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1210" y="1160" width="130" height="50" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="dPj_uReQxevkVpkQylFZ" name="transition">
-        <mxGraphModel dx="786" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="558" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
