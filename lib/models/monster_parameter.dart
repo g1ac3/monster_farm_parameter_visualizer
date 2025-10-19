@@ -56,6 +56,18 @@ enum MonsterFeed {
   meat,
 }
 
+@HiveType(typeId: 4)
+enum BodyType {
+  @HiveField(0)
+  normal,
+
+  @HiveField(1)
+  big,
+
+  @HiveField(2)
+  small,
+}
+
 @HiveType(typeId: 1)
 class MonsterHistory extends HiveObject {
   @HiveField(0)
@@ -101,7 +113,7 @@ class MonsterHistory extends HiveObject {
   int stressGain;
 
   @HiveField(14)
-  String bodyType;
+  BodyType bodyType;
 
   @HiveField(15)
   int condition;
