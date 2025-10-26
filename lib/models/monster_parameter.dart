@@ -35,7 +35,7 @@ enum MonsterAction {
   tournament,
 
   @HiveField(6)
-  expeditionStart,
+  expedition,
 
   @HiveField(7)
   expeditionReturn,
@@ -54,6 +54,9 @@ enum MonsterFeed {
 
   @HiveField(2)
   meat,
+
+  @HiveField(3)
+  nothing,
 }
 
 @HiveType(typeId: 4)
@@ -65,7 +68,13 @@ enum BodyType {
   big,
 
   @HiveField(2)
+  tooBig,
+
+  @HiveField(3)
   small,
+
+  @HiveField(4)
+  tooSmall,
 }
 
 @HiveType(typeId: 1)
@@ -113,30 +122,33 @@ class MonsterHistory extends HiveObject {
   int stressGain;
 
   @HiveField(14)
-  BodyType bodyType;
+  int bodyValue;
 
   @HiveField(15)
-  int condition;
+  BodyType bodyType;
 
   @HiveField(16)
-  int lifeCost;
+  int condition;
 
   @HiveField(17)
-  MonsterAction action;
+  int lifeCost;
 
   @HiveField(18)
-  MonsterFeed monthlyFeed;
+  MonsterAction action;
 
   @HiveField(19)
-  int mango;
+  MonsterFeed monthlyFeed;
 
   @HiveField(20)
-  int mochi;
+  int mango;
 
   @HiveField(21)
-  int grass;
+  int mochi;
 
   @HiveField(22)
+  int grass;
+
+  @HiveField(23)
   int gBalance;
 
   MonsterHistory({
@@ -154,6 +166,7 @@ class MonsterHistory extends HiveObject {
     required this.fear,
     required this.loyalty,
     required this.stressGain,
+    required this.bodyValue,
     required this.bodyType,
     required this.condition,
     required this.lifeCost,
